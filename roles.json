@@ -1,0 +1,8 @@
+{
+  "_comment": "List admin emails in admin_emails. All other whitelisted emails are treated as 'member'.",
+  "admin_emails": [
+    "sulemansmathekar@gmail.com",
+    "secretary@example.com"
+  ],
+  "roles": {}
+}
