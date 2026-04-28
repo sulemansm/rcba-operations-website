@@ -1,8 +1,18 @@
 {
-  "_comment": "List admin emails in admin_emails. All other whitelisted emails are treated as 'member'.",
+  "_comment": "Role-based access control. secretariat = full admin. director = own reports only. editor = all reports view + submit. admin_emails kept for backwards compatibility (maps to secretariat).",
+  "secretariat_emails": [
+    "secretary@example.com",
+    "suleman.sm.rcba@gmail.com"
+  ],
+  "director_emails": [
+    "shabanasmathekar@gmail.com"
+  ],
+  "editor_emails": [
+    "suleman.rcba@gmail.com"
+  ],
   "admin_emails": [
     "sulemansmathekar@gmail.com",
-    "secretary@example.com"
+    "suleman.gdtc@gmail.com"
   ],
   "roles": {}
 }
