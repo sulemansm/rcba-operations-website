@@ -1,23 +1,9 @@
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environment
-venv/
-.env/
-
-# Environment variables
 .env
-
-# Logs
-*.log
-
-# OS files
+.streamlit/secrets.toml
+google_credentials.json
+*.pyc
+__pycache__/
+reports_store.json
+uploads/
+*.db
 .DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Data files
-data/
